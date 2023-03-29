@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">		
+    <title>Tuney Tunes</title>  
+    <h1 align = "center">Terry Tunes</h1>		
+    
+<link rel="stylesheet" href="menustyles.css"> 
+
+</head>
+
+<!-- links for fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">  <!-- Linking new font -->
+
+<!-- Creating the border for the table   Help-> https://www.w3schools.com/html/html_table_borders.asp -->
+
+
+<body>
+
+<main>
+    <section>
+
+        <h2 align = "left">Directory</h2>
+        <img class="mic" src = "Img/mic.jpg" height="150" alt ="Guitar" >
+        <ul>
+            <li>About </li>
+            <li>Create an account</li>
+            <li>Submit A Playlist</li>
+            <li>Community</li>
+        </ul>
+
+    </section>
+</main>
+    <section>
+<main>
+        <h2 align = "center">About</h2>
+
+        <img class="img_deg" src = "Img/rGut.png" height="150" alt ="Guitar" >
+
+        <img class="img_d" src = "Img/note.png" height="150" alt ="note" >
+
+        <p>Terry tunes is a program that<em> helps people share their playlist with the world. We support all genere that being rock, Hip hop, anything</em>, and get paid for your playlist if it gets popular enough. There is two versions of our software <em>Preminum (<span class="price">$2.99</span> monthly),and Standard</em>.</p>	
+
+        <table> <!-- start of table -->
+        
+            <caption> <tr><th colspan ="3">Pricing</th></tr>     </caption>
+            <tr> 
+            <th> <span>Standard</span> </th>  <!-- using span -->
+            <td><span class = "price">$0.00</span> </td>
+            <td> contains Ads </td>
+            </tr>
+            <tfoot>
+            <tr>
+            <th> Preminum </th>
+            <td> <span class="price">$2.99</span> monthly </td>
+            <td> Zero Ads </td>
+            </tr>
+        </tfoot>
+        </table>
+    </main>
+    </section>
+
+    <section>
+    <main>
+        <h2 align = "center"> Create an account </h2>
+        <fieldset>
+            <legend>Account Information</legend>
+            <form>
+                <label for=" Email" >Email       : </label> <input type="email" id="email" name="email"> <br>
+                <label for=" Password"> Password: </label> <input type="password" id="password" name="password "><br>
+                <label for=" Password"> Confirm Password: </label> <input type="password" id="password" name="password "><br>
+
+                <fieldset>
+                    <legend>Payment Info</legend>
+                    <p> which subscription are you intrested in :
+                        <select name="subscription" 
+                        size="1">
+                         <option>Standard </option> <!-- option 1 of menu ...-->
+                         <option>preminum </option>
+                         </select>
+                        </p>
+                     <p>only if selected preminun </p>
+                     <label for=" CardNumber" >Enter Card number      : </label> <input type="number" id="CardNumber" name="CardNumber"> <br>
+                     <label for=" cvc" >Enter security Code 3 digits     : </label> <input type="number" id="cvc" name="cvc"> <br>
+                     <img class="img_deg" src = "Img/rGut.png" height="150" alt ="Guitar" >
+
+                     <img class="img_d" src = "Img/note.png" height="150" alt ="note" >
+
+                </fieldset>
+                <input type="submit" value="Submit">
+            </form>
+
+        </fieldset>
+
+
+    </section>
+</main>
+    <section>
+
+    <main>
+        <h2 align = "center"> Make a Playlist</h2>
+<!-- Getting User Playlist infromation -->
+<form>
+    <fieldset>
+User             : <input type="text" name="customername">  
+   Playlist Name   : <input type="text" name="PLaylistName"> 
+        
+    Genre           : <input type="text" name="Genre"> <br>
+
+         Theme  for playlist<!-- adding check boxes--> <br>
+            <label> <input type="radio" name="crust" value="white"> Lofi</label>  <!-- adding label elements -->
+            <label><input type="radio" name="crust" value="white"> Gym</label> 
+            <label><input type="radio" name="crust" value="white"> Casual</label> 
+            <label><input type="radio" name="crust" value="white"> Get hype</label> 
+
+
+         <br>
+        Genres in playlist
+            <input type="checkbox" name="genre" value="des"> hip hop</li>   <!--use this for diffrent types https://www.w3schools.com/tags/tag_input.asp-->
+            <input type="checkbox" name="genre" value="des"> Country</li>
+            <input type="checkbox" name="genre" value="des"> Eletric</li>
+            <input type="checkbox" name="genre" value="des"> Rock</li>
+            <input type="checkbox" name="genre" value="des"> Alternative</li>
+
+
+            <img class="img_deg" src = "Img/rGut.png" height="150" alt ="Guitar" >
+
+            <img class="img_d" src = "Img/note.png" height="150" alt ="note" >
+     
+         <br>
+         About Playlist :
+            <br><textarea name="About " rows="4" cols="60"  maxlength="400" placeholder="No more than 400 characters long"></textarea>      
+            <p><input type="submit" value="Post Playlist"></p>
+            
+
+    </form>
+    </fieldset>
+    </section>
+</main>
+
+
+<main>
+    <section>
+        <h3 align = "center">Community</h3>
+        <h5><u> <b>Community Playlist</b> </u></h5> <!-- u underlines the text  b to bold text-->
+        <dl>
+        <ol>    <!-- make an ordered list-->       
+            <li>  <dt> <span class="artist">BeatMaker</span></dt></li>
+            <li>  <dt><span class="artist">Tlee</span></dt>  <span class="warning"><small>Terry him self </small></span> </li>
+            <li> <dt><span class="artist">LilPlaylister</span></dt></li>
+        
+        </ol>
+        </dl>
+
+        <img class="img_deg" src = "Img/rGut.png" height="150" alt ="Guitar" >
+        <video class="img_d" src="Img/Dancedance.mp4" width="320" height="262" controls> 
+       
+        <P>Community playlist are all User Created Terry Says <q> You can someday be here </q> </P>
+
+        <h5><u>Dev Playlist </u></h5> <!-- Under line text with u-->
+          
+
+                
+                
+place holder for video .
+</video>
+
+<dl>
+    <ol> <!-- Start of ordered list -->
+ 
+    
+        <li>  <dt>Hip-hop</dt></li>         
+        <li> <dt>Drakes Greatest Hits</dt></li>
+        <li>  <dt>Gym Motivation</dt></li>
+
+    </ol>
+</dl>
+
+    <dfn> Devloper Playslit are all made through AI or manually by devs  </dfn>
+    </section>
+
+</main>
+
+</body>
+</html>
