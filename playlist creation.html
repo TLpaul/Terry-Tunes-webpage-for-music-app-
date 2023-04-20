@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">		
+    <title>Tuney Tunes</title>  
+    <h1 align = "center">Playlist creation</h1>		
+        <!-- logo -->	
+
+    <img src="Img/rGut.png" height="150" alt="Logo">
+
+<link rel="stylesheet" href="menustyles.css"> 
+
+</head>
+
+<!-- links for fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">  <!-- Linking new font -->
+
+
+
+<body>
+
+    <section>
+
+        <main>
+            <!-- navigation-->
+            <nav>
+                <a href="welcome.html"> Navigation</a>
+            </nav>
+
+            <h2 align = "center"> <a id="MakeaPlaylist"></a> Make a Playlist</h2>
+
+    <!-- Getting User Playlist infromation -->
+    <form>
+        <fieldset>
+        User : <input type="text" name="customername">  <br>
+       Playlist Name : <input type="text" name="PLaylistName"><br>
+        Genre : <input type="text" name="Genre"> <br>
+    
+              <P> Theme  for playlist</P><!-- adding check boxes-->
+                <label> <input type="radio" name="crust" value="white"> Lofi</label>  <!-- adding label elements -->
+                <label><input type="radio" name="crust" value="white"> Gym</label> 
+                <label><input type="radio" name="crust" value="white"> Casual</label> 
+                <label><input type="radio" name="crust" value="white"> Get hype</label> 
+    
+    
+           <p>Genres in playlist</p> 
+                <input type="checkbox" name="genre" value="des"> hip hop</li>   <!--use this for diffrent types https://www.w3schools.com/tags/tag_input.asp-->
+                <input type="checkbox" name="genre" value="des"> Country</li>
+                <input type="checkbox" name="genre" value="des"> Eletric</li>
+                <input type="checkbox" name="genre" value="des"> Rock</li>
+                <input type="checkbox" name="genre" value="des"> Alternative</li>
+    
+    
+                <img class="img_deg" src = "Img/rGut.png" height="150" alt ="Guitar" >
+    
+                <img class="img_d" src = "Img/note.png" height="150" alt ="note" >
+         
+             <br>
+             <p>About Playlist :</p>
+                <br><textarea name="About " rows="4" cols="60"  maxlength="400" placeholder="No more than 400 characters long"></textarea>      
+                <p><input type="submit" value="Post Playlist"></p>
+                
+    
+        </form>
+        </fieldset>
+        </section>
+    </main>
+</body>
+</html>
