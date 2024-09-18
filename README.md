@@ -1,5 +1,5 @@
 # Terry-Tunes-webpage-for-music-app-
-erry Tunes is an innovative platform designed to help music lovers share their favorite playlists with others while also potentially earning money for their musical taste. 
+Terry Tunes is an innovative platform designed to help music lovers share their favorite playlists with others while also potentially earning money for their musical taste. 
 ![image](https://user-images.githubusercontent.com/101278914/233387885-0e277de7-ab19-4ed7-a3ce-ea35af1d5363.png)
 ![image](https://user-images.githubusercontent.com/101278914/233387970-f84fdcf0-4fa2-446b-b6f7-fe1d185755f9.png)
 ![image](https://user-images.githubusercontent.com/101278914/233388027-070f2985-d33a-49ac-ba6f-b2a12a75aab0.png)
